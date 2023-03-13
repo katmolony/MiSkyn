@@ -1,0 +1,50 @@
+ul#menu li {
+  display: inline;
+  padding-right: 1em;
+  padding-left: 1em; 
+}
+
+ul#menu a {
+  text-decoration: none;
+  color: #260e0b;
+}
+
+/* only effects the active element */
+#menu li.active a {
+  background: #260e0b;
+  padding: .5em .8em .5em .8em;
+  color: #F2ad85;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #f2ad85;
+  padding: .5em .8em .5em .8em;
+}
+
+ul#sun-menu ol {
+  display: flex;
+  padding-right: 1em;
+  padding-left: 1em; 
+
+  margin-bottom: 2em; /* space between each list item */
+  font-size: 20px;
+}
+
+ul#sun-menu a {
+  text-decoration: none;
+  color: #260e0b;
+}
+
+/* only effects the active element */
+#sun-menu ol.active a {
+  background: #260e0b;
+  padding: .5em .8em .5em .8em;
+  color: #F2ad85;
+  text-align: center;
+}
+
+ul a:hover {
+  background-color: #f2ad85;
+  padding: .5em .8em .5em .8em;
+}

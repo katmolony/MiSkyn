@@ -1,0 +1,20 @@
+
+.sun-nav {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	text-align: left;
+	letter-spacing: 0.6em; /*space betten each letter */
+}
+
+
+.maincontent-sun {
+	grid-column-start: 2;
+}
+
+.sun {
+	width: 100vw;
+	height:90vh;
+
+	display: grid;
+	grid-template-columns: 30% 70%;
+}

@@ -1,0 +1,75 @@
+@import url("grid.css");
+@import url("image.css");
+@import url("nav.css");
+@import url("sun-grid.css");
+
+body {
+	font-family: Didot ,serif; <!-- add two more fonts-->
+	line-height: 1em; 
+}
+
+header {
+	width: 100%;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	background-color: #8c5042;
+
+	background-image: url(../images/miskynbanner.png);	
+	background-repeat: no-repeat;
+ 	background-position: top left;
+ 	background-size: contain;
+ 	position: fixed;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+	text-align: center;
+
+}
+
+article {
+	text-align: center;
+  
+ 
+}
+
+footer {
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	background-color: #8c5042;
+	text-align: right;
+
+}
+
+.sun-protection {
+	background-image: url(../images/home-sun-protection.png) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.dry-sun {
+	background-image: url(../images/sun-dry.png) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.oily-sun {
+	background-image: url(../images/sun-oily.png) ;
+	background-repeat: no-repeat;
+	background-size: 110% 100%;
+}
+
+.combination-sun {
+	background-image: url(../images/sun-combination.png) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+

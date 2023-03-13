@@ -1,0 +1,69 @@
+.main-container {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 8% 32% 50% 10%;
+
+  width: 100vw;
+  height: 100vh;
+}
+.main-section {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
+.mainpage-intro {
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+}
+
+.secondary-main-container{
+
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+
+}
+
+.homepage-section-grid {
+	grid-column-start: 1;
+	grid-row-start: 3;
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+
+.homepage-sections-left {
+	grid-column-start: 1;
+}
+
+.homepage-sections-right{
+	grid-column-start: 2;
+}
+
+.footer {
+	grid-row-start: 4;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+
+}
+.header-nav-container{
+	grid-row-start: 1;
+}
+
+
+
+/* specific for skin type pages*/
+.dry-textbox {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+.test-skin-type {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}

@@ -1,0 +1,157 @@
+@import url("grid.css");
+@import url("image.css");
+@import url("nav.css");
+@import url("skin-type.css");
+
+
+
+body#main {
+	background-color: #bf9d95;
+	font-family: Didot ,serif; <!-- add two more fonts-->
+	font-size: 100%;
+	line-height: 1.3em; /*this refers to the verticle height between each line*/
+}
+
+
+header {
+display: block; 
+
+width: 100%;
+
+	border-color: black;
+  border-width: 5px;
+  border-style: solid;
+
+  background-color: #8c5042;
+
+  background-image: url(../images/miskynbanner.png);	
+	background-repeat: no-repeat;
+ 	background-position: top left;
+ 	background-size: contain;
+ 	position: fixed;
+}
+
+nav {
+  text-align: center;
+ 
+}
+
+h1, h2, h3, h4 {
+  color: #3d2005;
+  font-weight: bold;
+  font-family: Didot ,serif;
+}
+
+
+
+em { /* this is any element that had em of italics rule */
+	color: #3d2005;
+}
+
+
+.skin-type {
+	background-image: url(../images/skin-types.png) ;
+		/* these deal with the shape of the boxes */
+
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40%;
+  border-radius: 25px;
+}
+
+
+.acne {
+	background-image: url(../images/acne.png) ;
+	
+	background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40%;
+
+}
+
+.sun-protection { 
+	background-image: url(../images/sun-protection.png) ;
+	background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40%;
+}
+
+.anti-aging {
+	background-image: url(../images/anti-aging.png) ;	
+	background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40%;
+}
+
+article {
+	text-align: center;
+}
+
+section {
+	/*these relate to the border*/
+	border-color: #3d2005;
+	border-width: 5px;
+	border-style: solid;
+	background-color: #8c5042;
+
+	/*these relate to the text in the section*/
+	line-height: 0.8em;
+	font-family: Didot ,serif;
+
+	color: black;
+	border-radius: 20px;
+
+}
+
+a:link { 
+	text-decoration: none; 
+}
+
+.main-section {
+	text-align: center;
+	margin: 30px;
+}
+.secondary-main-container{
+
+  background-image: url(../images/femalebody.png) ;
+	background-repeat: no-repeat;
+  background-position: top ;
+  background-size: cover;
+  opacity: 0.5;
+
+}
+
+.text-box {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #8c5042;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.homepage-section-grid {
+	padding: 5px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	height:100vh
+}
+
+
+
+footer {
+
+	border-color: black;
+  border-width: 5px;
+  border-style: solid;
+
+  background-color: #8c5042;
+
+  text-align: right;
+
+}
+

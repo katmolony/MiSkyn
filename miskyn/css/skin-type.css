@@ -1,0 +1,41 @@
+
+.dry {
+	background-image: url(../images/dry.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dry-textbox {
+	margin: 100px; /*this moves the margins of the border*/
+	padding: 20px;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+
+.oily {
+	background-image: url(../images/oily.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.combination {
+	background-image: url(../images/combination.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.skin-type-test{
+	background-image: url(../images/test-skin-type.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.test-skin-type {
+	margin: 50px; /*this moves the margins of the border*/
+	padding: 20px;
+	padding-left: 10px;
+	margin-right: 10px;
+
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 1.8em;
+}
